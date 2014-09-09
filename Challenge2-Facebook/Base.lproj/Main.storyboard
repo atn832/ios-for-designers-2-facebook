@@ -335,9 +335,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="onClick" destination="V1I-vG-i70" id="EMY-5e-BtT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCL-3E-h21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
