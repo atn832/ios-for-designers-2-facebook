@@ -12,6 +12,15 @@
 		36AABA1A19B929CE001D0FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AABA1819B929CE001D0FF9 /* Main.storyboard */; };
 		36AABA1C19B929CE001D0FF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AABA1B19B929CE001D0FF9 /* Images.xcassets */; };
 		36AABA2819B929CE001D0FF9 /* Challenge2_FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AABA2719B929CE001D0FF9 /* Challenge2_FacebookTests.swift */; };
+		36AABA3419B93444001D0FF9 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AABA3319B93444001D0FF9 /* Tab1ViewController.swift */; };
+		36AABA3619B935D7001D0FF9 /* Tab2viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AABA3519B935D7001D0FF9 /* Tab2viewcontroller.swift */; };
+		36AABA3819B937EE001D0FF9 /* Tab3viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AABA3719B937EE001D0FF9 /* Tab3viewcontroller.swift */; };
+		36AABA3A19B938E7001D0FF9 /* Tab4viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AABA3919B938E7001D0FF9 /* Tab4viewcontroller.swift */; };
+		36AABA3C19B93CAB001D0FF9 /* Tab5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AABA3B19B93CAB001D0FF9 /* Tab5ViewController.swift */; };
+		36CED02019BEB3B8003A0C7B /* ThrillistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CED01F19BEB3B8003A0C7B /* ThrillistViewController.swift */; };
+		36CED02219BEB979003A0C7B /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CED02119BEB979003A0C7B /* StatusViewController.swift */; };
+		36CED02519BEBB60003A0C7B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CED02419BEBB60003A0C7B /* PhotoViewController.swift */; };
+		36CED02719BEBB9D003A0C7B /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CED02619BEBB9D003A0C7B /* CommentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 		36AABA2119B929CE001D0FF9 /* Challenge2-FacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge2-FacebookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AABA2619B929CE001D0FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36AABA2719B929CE001D0FF9 /* Challenge2_FacebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2_FacebookTests.swift; sourceTree = "<group>"; };
+		36AABA3319B93444001D0FF9 /* Tab1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
+		36AABA3519B935D7001D0FF9 /* Tab2viewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2viewcontroller.swift; sourceTree = "<group>"; };
+		36AABA3719B937EE001D0FF9 /* Tab3viewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3viewcontroller.swift; sourceTree = "<group>"; };
+		36AABA3919B938E7001D0FF9 /* Tab4viewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab4viewcontroller.swift; sourceTree = "<group>"; };
+		36AABA3B19B93CAB001D0FF9 /* Tab5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab5ViewController.swift; sourceTree = "<group>"; };
+		36CED01F19BEB3B8003A0C7B /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistViewController.swift; sourceTree = "<group>"; };
+		36CED02119BEB979003A0C7B /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		36CED02419BEBB60003A0C7B /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		36CED02619BEBB9D003A0C7B /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +93,20 @@
 		36AABA1119B929CE001D0FF9 /* Challenge2-Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				36AABA3519B935D7001D0FF9 /* Tab2viewcontroller.swift */,
 				36AABA1419B929CE001D0FF9 /* AppDelegate.swift */,
+				36AABA3719B937EE001D0FF9 /* Tab3viewcontroller.swift */,
+				36AABA3919B938E7001D0FF9 /* Tab4viewcontroller.swift */,
 				36AABA1619B929CE001D0FF9 /* ViewController.swift */,
 				36AABA1819B929CE001D0FF9 /* Main.storyboard */,
 				36AABA1B19B929CE001D0FF9 /* Images.xcassets */,
 				36AABA1219B929CE001D0FF9 /* Supporting Files */,
+				36AABA3319B93444001D0FF9 /* Tab1ViewController.swift */,
+				36AABA3B19B93CAB001D0FF9 /* Tab5ViewController.swift */,
+				36CED01F19BEB3B8003A0C7B /* ThrillistViewController.swift */,
+				36CED02119BEB979003A0C7B /* StatusViewController.swift */,
+				36CED02419BEBB60003A0C7B /* PhotoViewController.swift */,
+				36CED02619BEBB9D003A0C7B /* CommentViewController.swift */,
 			);
 			path = "Challenge2-Facebook";
 			sourceTree = "<group>";
@@ -208,8 +235,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AABA3819B937EE001D0FF9 /* Tab3viewcontroller.swift in Sources */,
+				36AABA3619B935D7001D0FF9 /* Tab2viewcontroller.swift in Sources */,
 				36AABA1719B929CE001D0FF9 /* ViewController.swift in Sources */,
 				36AABA1519B929CE001D0FF9 /* AppDelegate.swift in Sources */,
+				36AABA3419B93444001D0FF9 /* Tab1ViewController.swift in Sources */,
+				36AABA3C19B93CAB001D0FF9 /* Tab5ViewController.swift in Sources */,
+				36CED02019BEB3B8003A0C7B /* ThrillistViewController.swift in Sources */,
+				36CED02219BEB979003A0C7B /* StatusViewController.swift in Sources */,
+				36AABA3A19B938E7001D0FF9 /* Tab4viewcontroller.swift in Sources */,
+				36CED02519BEBB60003A0C7B /* PhotoViewController.swift in Sources */,
+				36CED02719BEBB9D003A0C7B /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +431,7 @@
 				36AABA2D19B929CE001D0FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36AABA2E19B929CE001D0FF9 /* Build configuration list for PBXNativeTarget "Challenge2-FacebookTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +440,7 @@
 				36AABA3019B929CE001D0FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
